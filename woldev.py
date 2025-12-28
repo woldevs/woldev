@@ -13,7 +13,7 @@ FLOOD_TIME = 3
 
 now = datetime.now().strftime("%d.%m.%Y %H:%M")
 
-bot = telebot.TeleBot(pay.bot_token)
+bot = '8579111497:AAHvOKSOpcs6IxxcooQN1gGE9EseQ1kbh20'
 
 cb_global = {}
 
@@ -1766,3 +1766,4 @@ def handle_text_buttons(m):
     faq(bot_msg)
 
 bot.polling(none_stop=True)
+
